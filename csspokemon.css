@@ -1,0 +1,244 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+
+body {
+
+    font-family: "Sofadi One", system-ui;
+    font-style: normal;
+    background-image: url(imagenes/556480.jpg);
+    background-size:100%;
+    background-repeat: no-repeat; 
+   
+}
+
+
+.tituloprincipal {
+    margin-left: 499px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 3, 3);
+    width: 361px;
+    height: 0px;
+    background-color: rgba(243, 161, 53, 0.479);
+    padding-top: 24px;
+    padding-bottom: 30px;
+    border: 2px, solid, rgba(128, 115, 0, 0.13);
+    border-radius: 25px;
+    
+ }
+.subtitulo {
+    margin-left: 300px;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 3, 3);
+    width: 200px;
+    height: 0px;
+    background-color: rgba(243, 161, 53, 0.479);
+    padding-top: 24px;
+    padding-bottom: 30px;
+    border: 2px, solid, rgb(0, 60, 128);
+    border-radius: 25px;
+}
+ #Mascota {
+    height:25vh;
+    display: flex;
+    width: 40vh;
+    margin-top: 20vh;
+    margin-left: 526px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 32px;
+    
+    
+}
+.tarjetas{
+    margin-top: 55px;
+    margin-left: -91px  ;
+    display: flex;
+    gap: 15px; 
+
+}
+.tarjetadeavatar{
+   
+    margin-left: 101px;
+    margin-top: -6px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center  ;
+    align-items: center;
+    font-size: 30px;
+    height: 298px;
+    width: 200px;
+    
+    padding-top: 6px;
+    border: 5px, solid, rgba(250, 185, 5, 0.87);
+    border-radius: 15px;
+    background-image: url(./imagenes/japon-antiguo-estilo-arte-digital.jpg);
+    background-size: cover;
+}
+.tarjetadeavatar img {
+    margin-top: -25px;
+    width: 144px;
+    height: 232px;
+    display: flex;
+    border-radius: 15px;
+    border: 15px;
+}
+.boton-mascota {
+    width: 150px;
+    height: 60px;
+    font-family: "Sofadi One", system-ui;
+    font-size: 26px;
+    border-radius: 25px;
+    border: ridge, green;
+    background-color: orangered;
+}
+
+.titulo2 {
+    
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 3, 3);
+    width: 473px;
+    height: 10px;
+    background-color: rgba(243, 161, 53, 0.479);
+    padding-top: 24px;
+    padding-bottom: 30px;
+    border: 2px, solid, rgb(0, 60, 128);
+    border-radius: 5px;
+    font-size: 30px;
+ }
+
+ .Instrucciones{
+    height: 13vh;
+    width: 140vh;
+    margin-top: -1vh;
+    margin-left: 25px;
+    margin-bottom: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 0px;
+    padding-left: 32px;
+    background-color: black;
+    border-radius: 20px;
+    color: crimson;
+    font-size: 25px;
+ }
+
+.vidasrestantes {
+    height: 0px;
+    display: flex;
+    width: 433px;
+    margin-top: 68px;
+    margin-left: 24px;
+    margin-bottom: 11px;
+    padding-bottom: 41px;
+    padding-top: 86px;
+    padding-right: 15px;
+    padding-left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: rgb(33, 20, 220);
+    font-size: 21px;
+}
+.cssvidasp1{
+    height: 81px;
+    width: 422px;
+
+}   
+.cssvidasp1{
+    height: 81px;
+    width: 422px;
+}   
+#selecElemento{
+align-items: center;
+flex-direction: column;
+
+}
+#ataque{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: -1vh;
+    margin-left: -191px;
+    margin-bottom: 17px;
+}
+.botonesataquecss{
+    display: flex;
+    flex-direction: center;
+    width: 128px;
+    height: 80px;
+   
+}
+.botonfuego{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    background-image: url(./imagenes/FUEGO.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.botonagua{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    background-image: url(./imagenes/AGUA.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.botontierra{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    background-image: url(./imagenes/TIERRA.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#Mensajes{
+    display: flex;
+    padding: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+#boton-reinicio{
+    font-family: "Sofadi One", system-ui;
+    font-style:oblique;
+    width: 110px;
+    height: 86px;
+    border-radius: 10px;
+    background-image: url(./imagenes/yin.png);
+    background-size: cover;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
